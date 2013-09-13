@@ -13,5 +13,6 @@ echo "DEPLOYING TO ${DEPLOY_PATH}"
 #
 # Checkout Google API PHP Client
 #
+echo "Downloading Google API PHP Client v0.6.6..."
 svn checkout http://google-api-php-client.googlecode.com/svn/tags/0.6.6/ ${DEPLOY_PATH}/lib/google-api-php-client
 
